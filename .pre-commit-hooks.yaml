@@ -1,12 +1,12 @@
 - id: npm-groovy-lint
   name: Lint groovy files
   description: Groovy & Jenkinsfile Linter
-  entry: npm-groovy-lint --output txt --noserver
+  entry: npm-groovy-lint --noserver --output txt
   language: docker
   types: [groovy]
 - id: npm-groovy-lint-format
   name: Lint groovy files
   description: Groovy & Jenkinsfile Linter
-  entry: npm-groovy-lint --output txt --noserver --format
+  entry: npm-groovy-lint --noserver --output txt --format
   language: docker
   types: [groovy]
