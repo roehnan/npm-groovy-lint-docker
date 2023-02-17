@@ -1,0 +1,6 @@
+- id: npm-groovy-lint
+  name: Lint groovy files
+  description: Groovy & Jenkinsfile Linter
+  entry: nvuillam/npm-groovy-lint:9.5.0 --output txt
+  language: docker_image
+  types: [groovy]
