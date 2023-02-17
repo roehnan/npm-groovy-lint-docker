@@ -4,3 +4,9 @@
   entry: npm-groovy-lint --output txt --noserver
   language: docker
   types: [groovy]
+- id: npm-groovy-lint-format
+  name: Lint groovy files
+  description: Groovy & Jenkinsfile Linter
+  entry: npm-groovy-lint --output txt --noserver --format
+  language: docker
+  types: [groovy]
